@@ -1,0 +1,17 @@
+.right {
+  float: right;
+}
+
+.edit-logo {
+  text-decoration: "none";
+  color: "green";
+  font-weight: "bold";
+  margin-right: 10px;
+}
+
+.delete-logo {
+  text-decoration: "none";
+  /* color: "red"; */
+  font-weight: "bold";
+  margin-left: 10px;
+}
