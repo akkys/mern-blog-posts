@@ -1,0 +1,27 @@
+POST http://localhost:5000/blogs/add HTTP/1.1
+Content-Type: application/json
+
+{
+	"username": "user",
+	"title":"Blog6",
+	"description":"Hi this is my first blog",
+	"date":"2020-04-04T10:50:57.201Z"
+}
+
+###
+GET http://localhost:5000/blogs/ HTTP/1.1
+
+###
+
+DELETE http://localhost:5000/blogs/5e88670754ee181335914184 HTTP/1.1
+
+###
+POST http://localhost:5000/blogs/update/5e8867e554ee181335914185 HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"shane",
+    "description":"Hi this is my second blog",
+    "title":"blog2",
+    "date":"2020-04-01T17:50:02.426Z"
+}
